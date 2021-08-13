@@ -1,0 +1,26 @@
+.conteudo{
+    width: 900;
+    margin: auto;
+}
+
+h1 {
+    color: #ff00ff;
+    font-family: Arial, Helvetica;
+    font-size: 30;
+    text-align: center;
+}
+
+body{
+    font-family: Arial, Helvetica;
+    text-align: justify;
+    
+}
+
+#foto{
+    float: left;
+}
+
+#eu{
+    float: right;
+}
+
