@@ -3,6 +3,7 @@
 <head>
     <title>Inicio</title>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
 </head>
 
 <body>
@@ -12,38 +13,48 @@
         </div>
     </header>
 
+    <input type="checkbox" id="bt_menu">
+    <label for="bt_menu">&#9776;</label>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href>Receitas</a>
+                <ul>
+                    <li><a href="receitas/receita1.html">Waffle</a></li>
+                    <li><a href="receitas/receita2.html">Brownie</a></li>
+                    <li><a href="receitas/receita3.html">Cookie</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Inspirações</a>
+                <ul>
+                    <li><a href="inspiracoes/inspiracao1.html">Gemaplys</a></li>
+                    <li><a href="inspiracoes/inspiracao2.html">Dumativa</a></li>
+                    <li><a href="inspiracoes/inspiracao3.html">H.P. Lovecraft</a></li>
+                </ul>
+            </li>
+            <li><a href="#">complementos</a>
+                <ul>
+                    <li><a href="complementos/futuro.html">Futuro</a></li>
+                    <li><a href="complementos/trabalho.html">Trabalho</a></li>
+                    <li><a href="linhadotempo/linhadotempo.html">Linha do tempo</a></li>
+                    <li><a href="complementos/hobbies.html">Hobby</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
     <div id="principal">
         <div class="conteudo">
             <h2>Quem sou eu?</h2>
 
             <div class="foto"><img
                     src="https://scontent.fcgh12-1.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/115945835_3104795372946169_1046677260281763343_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=dd7718&efg=eyJpIjoidCJ9&_nc_eui2=AeHgxqcTyJf711Oh4PCRiM8721L3Jzv4YpHbUvcnO_hikYJ4EmHfvsIZp4GnjXYeigTZMilNYdLaJPw4NNpGmXVR&_nc_ohc=JRMvtdV5ySIAX8zt1O5&_nc_ht=scontent.fcgh12-1.fna&oh=a9b196b55ab968d603508f6ebbd6b271&oe=6140A961"
-                    height=50%></div>
-            <div class="eu"> um garoto de 18 anos, apaixonado por livros, rpg e tentando dar meu melhor para aprender
-                cada vez mais</div>
-
-
-            <p>
-            <h2>Conheça nossas receitas</h2>
-            </p>
-            <div>
-                <div>
-                    <div><a href="receitas/receita1.html" target="_blank"> Waffle</a< /div>
-                            <div><a href="receitas/receita1.html" target="_blank"> Brownie</a></div>
-                            <div><a href="receitas/receita3.html" target="_blank"> Cookie</a></div>
-                    </div>
-                </div>
+                    height=50%>
             </div>
-            <h2>Essas foram as minhas referencias durante a minha vida</h2>
 
-            <div><a href="linhadotempo/linhadotempo.html" target="_blank">Linha do tempo</a></div>
-
-
-            <h2>Essas são as personalidades que me inspiram</h2>
-            <div>
-                <div><a href="inspiracoes/inspiracao1.html" target="_blank"> Gemaplys</a></div>
-                <div><a href="inspiracoes/inspiracao2.html" target="_blank"> Dumativa</a></div>
-                <div><a href="inspiracoes/inspiracao3.html" target="_blank"> H.P. Lovecraft</a></div>
+            <div class="eu"> um garoto de 18 anos, apaixonado por livros, rpg e tentando dar meu melhor para aprender
+                cada vez mais
             </div>
 
             <h2>Três coisas para saber sobre mim</h2>
@@ -56,10 +67,6 @@
             </div>
         </div>
     </div>
-    <footer>
-        <a href="complementos/futuro.html" target="_blank" class="button">Futuro</a>
-        <a href="complementos/trabalho.html" target="_blank" class="button">Trabalho</a>
-    </footer>
 </body>
 
 </html>
