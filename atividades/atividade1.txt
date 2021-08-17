@@ -1,0 +1,19 @@
+1) A função desse site é bem executada?
+Em partes, pois a função é ver se os filmes passam no teste de Bechdel é executada, porém não aparenta ser da forma mais eficaz, pratica e intuitiva.
+
+2) Você encontrou algum filme interessante que passe nesse teste? Informe.
+BoyHood: Da Infância à Juventude. Ele conta a história de 12 anos de um garoto, existem diversas mulheres no filme que tem nomes, em algumas cenas transitórias que duas mulheres conversam, e as conversas são sobre coisas além de homens e romances.
+O filme passa no teste de Bechdel 3/3.
+
+3) Você encontrou algum filme interessante que não passe nesse teste? Informe.
+Constantine. Existem 3 personagens nomeadas (Dra. Leslie Archer, Angela Dodson e Isabel Dodson), essas personagens não conversam entre si em nenhum momento.
+O filme não passa no teste de Bechdel 1/3.
+
+4) Visualmente o site é fraco. Isso é uma afirmação.
+Diga como o site pode ser melhorado, focando sempre na experiência do usuário.
+
+Criando uma barra de pesquisa mais aparente, deixando o visual mais intuitivo e deixando o site mais dinâmico.
+
+Todos esses problemas afetam muito o usuário, afinal para poder achar um filme em especifico é necessário ir até o final do site e usar uma barra de pesquisa praticamente secreta (se errar uma letra a barra de pesquisa não mostra coisas parecidas com o que você pesquisou) ou abrir a lista com todos os filmes, usar Ctrl + F para pesquisar o filme que gostaria de ver.
+O visual do site é muito antigo e me dá uma vontade de sair do site após dois segundos dele aberto, o visual poderia ser mais intuitivo e amigável, colocando as capas dos filmes, fazendo um campo de discussões mais organizados, etc.
+O site poderia ser mais dinâmico com funções informando se a discussão sobre aquele filme foi encerrada, colocando votação popular para determinar se o filme passa ou não, etc.

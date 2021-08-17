@@ -35,13 +35,23 @@ h1 {
   text-shadow: 1px 1px 1px #111111;
 }
 
-#foto {
-  float: left;
-  width: 50%;
+.foto{
+flex-direction: left;
 }
 
-#eu {
-  float: right;
-  width: 50%;
-  vertical-align: middle;
+.eu {
+    flex-direction: right;
+}
+
+.button {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16 px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align: center;
 }
