@@ -6,7 +6,7 @@
 .menu {
   width: 100%;
   height: 50px;
-  background-color: #363636;
+  background-color: #262626;
   font-family: Arial;
 }
 
@@ -25,7 +25,7 @@
   display: block;
   text-decoration: none;
   text-align: center;
-  background-color: #363636;
+  background-color: #262626;
   color: white;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .menu ul ul li a {
-  background-color: #069;
+  background-color: #a7a6a6;
 }
 
 label[for="bt_menu"] {
