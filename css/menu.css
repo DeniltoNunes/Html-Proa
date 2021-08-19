@@ -83,12 +83,12 @@ label[for="bt_menu"] {
 
   .menu{
     margin-top: 5px;
-    margin-left: -100%;
+    margin-left: -100vw;
     transition: all .4s;
   }
 
   .menu ul li {
-    width: 100%;
+    width: 100vw;
     float: none;
   }
 
