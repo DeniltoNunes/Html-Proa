@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title>Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="../css/landingpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="inicio"> O que é uma landing page?
+    </div>
+
+    <div class="conteudo">
+        <h1>Significado Landing Page</h1>
+        <p>Landing pages, ou páginas de destino, são páginas criadas com o objetivo de apresentar uma oferta a usuários
+            e
+            converter visitantes em leads. Essas páginas virtuais estão vinculadas a uma empresa, mas não são páginas do
+            site, podendo, inclusive, apresentar um layout completamente diferente do institucional.</p>
+
+        <h1>Significado Lead</h1>
+        <p>Leads são pessoas que demonstraram interesse em adquirir o produto ou serviço da sua empresa, por meio do
+            preenchimento de formulários online com seus dados de contato. O lead, portanto, é um potencial cliente da
+            sua
+            empresa.</p>
+    </div>
+
+    <div>
+        <form id="formulario" autocomplete="off">
+            <h2>Insira suas informações que entraremos em contato</h2>
+
+            <label>Qual o seu nome?</label>
+            <input type="text" id="nome" placeholder='Nome completo' name="nome" />
+
+            <label>E-mail</label>
+            <input type="email" id="email" placeholder='email@email.com' name="email" required />
+
+            <label>Whatsapp:</label>
+            <input type="tel" id="phone" placeholder='xx-xxxxx-xxxx' name="phone" pattern="[0-11]{2}-[0-9]{5}-[0-9]{4}"
+                required>
+
+            <label>Motivo para contato:</label>
+            <textarea name="motivo" placeholder='Descreva o seu motivo' class="msg" cols="35" rows="8"></textarea>
+
+            <label>9 + 2 = ?</label>
+            <input type="number" id="captcha" name="captcha" required>
+
+            <label>
+                <input type="submit" name="botao">
+            </label>
+
+        </form>
+    </div>
+</body>
+
+</html>
