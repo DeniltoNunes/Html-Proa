@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+}
+
+.green {
+  margin-bottom: 30px;
+  height: 20vh;
+  width: 100vw;
+  background-color: #008000;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.yellow,
+.red,
+.pink {
+  padding: 20px;
+  height: 250px;
+  width: 250px;
+  background-color: #ffff00;
+  vertical-align: middle;
+  position: relative;
+  order: 1;
+}
+
+.numero, .letra, .grego{
+  display: flex;
+  width: 25%;
+  padding: 5%;
+  background: #fff;
+  margin: 15px;
+  vertical-align: middle;
+  float: left;
+  margin-top: 50px;
+}
+
+.numero1, .letra1, .grego1{
+  display: flex;
+  width: 25%;
+  padding: 5%;
+  background: #fff;
+  margin: 15px;
+  vertical-align: middle;
+  float: left;
+}
+
+.red {
+  background-color: #ff0000;
+  margin-left: 15px;
+}
+.pink {
+  background-color: #ff69b4;
+  margin-left: 20px;
+}
+.blue {
+  margin-left: 30px;
+  padding: 20px;
+  height: 67.5vh;
+  width: 20vw;
+  display: flex;
+  background-color: #0000ff;
+  position: absolute;
+  right: 0px;
+}
+
+.orange {
+  height: 20vh;
+  width: 73vw;
+  background-color: #ffa500;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.lado {
+  display: flex;
+  justify-content: flex-start;
+}
